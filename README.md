@@ -6,6 +6,12 @@ With the improvement of sensor network and human observation capabilities, a lar
 
 Therefore, we propose a regionalization-based clustering algorithm considering spatial and temporal contiguity (**STR method**). In addition, we also integrate it into a toolbox of ArcGIS Pro for users to use. 
 
+## The framework of STR method
+
+This figure illustrates the implementation of the spatiotemporal constraint regionalization algorithm, which contains three steps and one iteration rule namely **Search Neiborhood**, **Value Distance**, and **Neiborhoods Merage**.
+
+![image](https://github.com/AidenWang0309/Spatiotemporal-Regionaliaztion-Algorithm/blob/main/ST-Method.png)
+
 ## Toolbox of ArcGIS Pro
 
 The following figure is the interface of toolbox.
